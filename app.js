@@ -192,24 +192,3 @@ function diceRoll(){
     return Math.floor((Math.random() * 6))+1;
 }
 
-
-
-/*  Additional Notes Below
-
-//querySelector selects CSS elements, textContent changes the plain text in the webpage, innerHTML lets you add html to page
-//next 2 lines are examples of how to edit text using querySelector
-//document.querySelector('#current-'+activePlayer).textContent = dice;
-//document.querySelector('#current-'+activePlayer).innerHTML = '<em>'+ dice +'</em>';
-
-//line below gets the text from webpage
-let x = document.querySelector('#score-'+activePlayer).textContent;
-
-function btn(){
-    //do something here
-}
-//btn would become a callback function if we let addEventListener call it instead of programmer calling it
-
-//the 2 lines below are how to remove/add classes in html page
-        document.querySelector('.player-0-panel').classList.remove('active');
-        document.querySelector('.player-1-panel').classList.add('active');
-*/
